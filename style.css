@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.question-text{
+    color: rebeccapurple;
+}
+
+#prime-div{
+    margin-bottom: 60px;
+}
+
+header div{
+    width: fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: blueviolet;
+}
+
+header h1{
+    font-size: 110px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#trivia{
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid rgb(209, 208, 208);
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(78, 24, 148, 0.603);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+.nav-menu{
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    border: 2px solid rgb(209, 208, 208);
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(78, 24, 148, 0.603);
+}
+
+.nav-menu input, select{
+    font-size: 15px;
+    position: relative;
+    margin: 50px; 
+    color: white;
+    background-color: blueviolet;
+    font-family: 'Orbitron', sans-serif;
+    padding: 20px;
+    border: 2px solid blueviolet;
+    box-shadow: 5px 5px 5px rgb(78, 24, 148);
+}
+
+.nav-menu button{
+    position: relative;
+    margin: 50px; 
+    padding: 20px;
+    color: white;
+    background-color: blueviolet;
+    font-family: 'Orbitron', sans-serif;
+    border: 1px solid blueviolet;
+    box-shadow: 5px 5px 5px rgb(78, 24, 148);
+}
+
+#container button{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    display: list-item;
+    margin: 20px;
+    padding: 20px;
+    list-style: none;
+}
+
+#point-div{
+    font-family: 'Orbitron', sans-serif;
+    color: blueviolet;
+}
+
+#point-text{
+    width: fit-content;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90px;
+}
+
+#counter-p{
+    width: fit-content;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90px;
+}
+
+#return-text{
+    width: 300px;
+    font-size: 80px;
+    color: white;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 5px rgb(78, 24, 148);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 760px){
+    .nav-menu input, select{
+        max-width: 90%;
+        margin: 50px 10px 50px 10px;
+    }
+
+    #point-text{
+        width: fit-content;
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 90px;
+        text-align: center;
+    }
+
+    #trivia{
+        margin-top: 60px;
+    }
+}
